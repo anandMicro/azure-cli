@@ -13,6 +13,7 @@ from typing import Dict, Any
 from azure.cli.core.commands import AzCliCommand
 
 import time
+import json
 
 from azure.cli.core.azclierror import (
     RequiredArgumentMissingError,
